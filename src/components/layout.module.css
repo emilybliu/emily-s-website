@@ -1,21 +1,38 @@
+* {
+    background-color:aliceblue;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration:wavy;
+    color:cornflowerblue;
+}
+
 .container {
+    padding-top: 10px;
     margin: auto;
     max-width: 500px;
-    font-family: sans-serif;
+    font-family: Monospace;
 }
 
 .heading {
-    color: rebeccapurple;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:cornflowerblue;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
     padding-left: 0;
+    
 }
 
 .nav-link-item {
-    padding-right: 2rem;
+    padding-right: 3rem;
 }
 
 .nav-link-text {
