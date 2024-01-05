@@ -7,6 +7,8 @@ import {
   navLinkItem,
   navLinkText,
 } from './layout.module.css'
+import resume from '../static/Resume.pdf'
+import transcript from '../static/transcript.pdf'
 
 
 const Layout = ({ pageTitle, children }) => {
@@ -30,6 +32,16 @@ const Layout = ({ pageTitle, children }) => {
             </Link>
           </li>
           <li className={navLinkItem}>
+            <Link href={resume} target="_blank" className={navLinkText}>
+              Resume
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link href={transcript} target="_blank" className={navLinkText}>
+              Transcript
+            </Link>
+          </li>
+          <li className={navLinkItem}>
             <Link to="/projects" className={navLinkText}>
               Projects
             </Link>
@@ -37,6 +49,11 @@ const Layout = ({ pageTitle, children }) => {
           <li className={navLinkItem}>
             <Link to="/art" className={navLinkText}>
               Art
+            </Link>
+          </li>
+          <li className={navLinkItem}>
+            <Link to="/contact" className={navLinkText}>
+              Contact
             </Link>
           </li>
         </ul>
