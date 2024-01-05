@@ -1,7 +1,9 @@
 // Step 1: Import React
 import * as React from 'react'
 import Layout from '../components/layout'
+import Card from '../components/card'
 import Seo from '../components/seo'
+import data from '../data'
 
 
 
@@ -10,7 +12,15 @@ import Seo from '../components/seo'
 const ProjectsPage = () => {
   return (
     <Layout pageTitle="Projects">
-      <p>Projects</p>
+      {data.projects.map((project, index) => (
+        <Card
+          key={index}
+          heading={project.title}
+          paragraph={project.para}
+          imgUrl={project.imageSrc}
+          projectLink={project.url}
+        ></Card>
+      ))}
     </Layout>
   )
 }

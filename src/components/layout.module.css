@@ -1,9 +1,6 @@
-/* * {
-    background-color:aliceblue;
-} */
-p {
+/* p {
     font-size: 20px;
-}
+} */
 
 h1 {
     font-size: 35px;
@@ -60,8 +57,7 @@ a:hover {
     border-width:2px;
     border-style: solid;
     box-shadow: 2px 2px lightsteelblue;
-} 
-
-.nav-link-text {
     color: black;
-}
+    background-color:inherit;
+    font:inherit;
+} 

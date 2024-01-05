@@ -1,0 +1,24 @@
+.card {
+    border-radius:25px;
+    border-color:cornflowerblue;
+    border-width:3px;
+    border-style: solid;
+    box-shadow: 5px 5px lightsteelblue;
+    padding-top:0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+    margin:auto;
+    margin-bottom:5%;
+    margin-top:5%;
+}
+
+.text {
+
+    width:50%;
+}
+
+img {
+    border-radius: 25%;
+    opacity: 0.5;
+}
