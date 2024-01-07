@@ -1,3 +1,5 @@
+import oldWebsite from "./images/old_website.png"
+import roomFinder from "./images/room_finder.png"
 export default {
 
     projects: [
@@ -7,8 +9,8 @@ export default {
             para:
                 "I made this new portfolio site using Gatsby - a React based framework", 
             imageSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
-            url: "https://jerryliu8.github.io/2048-clone/",
+                oldWebsite,
+            url: "https://github.com/emilybliu/emily-s-website",
         },
         {
             title: "RoomFinder",
@@ -16,8 +18,8 @@ export default {
             para:
                 "Book rooms across UVA grounds! Created using Django", 
             imageSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
-            url: "https://jerryliu8.github.io/2048-clone/",
+                roomFinder,
+            url: "https://github.com/emilybliu/RoomFinder",
         },
         {
             title: "RapidTables Testing Showcase",
@@ -25,8 +27,8 @@ export default {
             para:
                 "50+ JUnit and Selenium tests using input space partition testing with multiple base choice coverage criteria", 
             imageSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
-            url: "https://jerryliu8.github.io/2048-clone/",
+                oldWebsite,
+            url: "https://github.com/emilybliu/emily-s-website",
         },
         {
             title: "Old Website", 
@@ -34,8 +36,8 @@ export default {
             para:
                 "My first personal portfolio website",
             imageSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
-            url: "https://jerryliu8.github.io/2048-clone/",
+                oldWebsite,
+            url: "https://github.com/emilybliu/emily-s-website",
         },
         {
             title: "Squirrel Catcher", 
@@ -43,8 +45,8 @@ export default {
             para:
                 "Fun game written in python, using pygame and UVA's gamebox", 
             imageSrc:
-                "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/1200px-2048_logo.svg.png",
-            url: "https://jerryliu8.github.io/2048-clone/",
+                oldWebsite,
+            url: "https://github.com/emilybliu/emily-s-website",
         }
 
     ]
