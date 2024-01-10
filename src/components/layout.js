@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { navigate, Link, useStaticQuery, graphql } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import {
   container,
   heading,
@@ -46,7 +47,16 @@ const Layout = ({ pageTitle, children }) => {
         </ul>
       </nav>
       <main>
-        <h1 className={heading}>{pageTitle}</h1>
+        <div style={{ display: 'flex', alignItems: 'center' }}>
+          <h1 className={heading} style={{ marginRight: '100px' }}>{pageTitle}</h1>
+          {pageTitle === 'Emily Liu' && (
+            <StaticImage
+              src="../images/portrait.png"
+              alt="my portrait"
+              style={{ maxWidth: '150px', borderRadius: '25%' }}
+            />
+          )}
+        </div>
         {children}
       </main>
     </div>

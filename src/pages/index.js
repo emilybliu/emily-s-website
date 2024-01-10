@@ -10,12 +10,14 @@ import Seo from '../components/seo'
 const IndexPage = () => {
   return (
     <Layout pageTitle="Emily Liu">
-      <p style={{fontSize:"20px"}}><strong>About me:</strong></p>
-      <p style={{fontSize:"20px"}}>I am a student at the University of Virginia pursing a Bachelor's degree in Computer Science and Studio Art. My expected graduation date is May 2025.
-        I have a passion for finding solutions to complex problems and thinking critically and creatively.
-        I'm interested in full stack development, web design, and artificial intelligence.
-      </p>
-      
+      <div style={{ paddingLeft: "10px" }}>
+        <p style={{ fontSize: "20px", margin:"0px" }}><strong>About me:</strong></p>
+        <p style={{ fontSize: "20px" }}>
+          I am a student at the University of Virginia pursuing a Bachelor's degree in Computer Science and Studio Art. My expected graduation date is May 2025.
+          I have a passion for finding solutions to complex problems and thinking critically and creatively.
+          I'm interested in full stack development, web design, and artificial intelligence.
+        </p>
+      </div>
     </Layout>
   )
 }

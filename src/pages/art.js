@@ -2,6 +2,8 @@
 import * as React from 'react'
 import Layout from '../components/layout'
 import Seo from '../components/seo'
+import Card from '../components/card'
+import data from '../data'
 
 
 
@@ -10,7 +12,17 @@ import Seo from '../components/seo'
 const ArtPage = () => {
   return (
     <Layout pageTitle="Art">
-      <p>art.</p>
+      {data.art.map((art, index) => (
+        <Card
+          key={index}
+          heading={art.title}
+          paragraph={art.para}
+          imgUrl={art.imageSrc}
+          date={art.date}
+          projectLink={art.url}
+          pageTitle="Art"
+        ></Card>
+      ))}
     </Layout>
   )
 }

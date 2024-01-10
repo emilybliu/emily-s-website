@@ -18,7 +18,10 @@ const ProjectsPage = () => {
           heading={project.title}
           paragraph={project.para}
           imgUrl={project.imageSrc}
+          alt={project.alt}
+          date={project.date}
           projectLink={project.url}
+          pageTitle="Projects"
         ></Card>
       ))}
     </Layout>
