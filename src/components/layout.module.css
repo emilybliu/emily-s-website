@@ -43,6 +43,7 @@ a:hover {
 
 .nav-links {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
     padding-left:0;
 
@@ -56,6 +57,7 @@ a:hover {
     padding-bottom: 10px;
     border-radius:25px;
     margin-right: 5px;
+    margin-bottom: 5px;
     border-color:cornflowerblue;
     border-width:2px;
     border-style: solid;
